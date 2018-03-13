@@ -1,0 +1,148 @@
+Problem 1. Creating k-Grams
+
+1A. Distinct k-grams for each document:
+
+===============================================
+
+Document D1.txt
+
+Number of 2-grams based on characters: 263
+
+Number of 3-grams based on characters: 766
+
+Number of 2-grams based on words: 279
+
+===============================================
+
+Document D2.txt
+
+Number of 2-grams based on characters: 262
+
+Number of 3-grams based on characters: 763
+
+Number of 2-grams based on words: 278
+
+===============================================
+
+Document D3.txt
+
+Number of 2-grams based on characters: 269
+
+Number of 3-grams based on characters: 829
+
+Number of 2-grams based on words: 337
+
+===============================================
+
+Document D4.txt
+
+Number of 2-grams based on characters: 255
+
+Number of 3-grams based on characters: 699
+
+Number of 2-grams based on words: 232
+
+===============================================
+
+1B. Jaccard similarity between: 
+
+===============================================
+
+D1.txt D2.txt 2-grams based on characters: 0.9811
+
+D1.txt D2.txt 3-grams based on characters: 0.9780
+
+D1.txt D2.txt 2-grams based on words: 0.9408
+
+
+
+===============================================
+
+D1.txt D3.txt 2-grams based on characters: 0.8157
+
+D1.txt D3.txt 3-grams based on characters: 0.5792
+
+D1.txt D3.txt 2-grams based on words: 0.1823
+
+
+
+===============================================
+
+D1.txt D4.txt 2-grams based on characters: 0.6444
+
+D1.txt D4.txt 3-grams based on characters: 0.3045
+
+D1.txt D4.txt 2-grams based on words: 0.0302
+
+
+
+===============================================
+
+D2.txt D3.txt 2-grams based on characters: 0.8000
+
+D2.txt D3.txt 3-grams based on characters: 0.5669
+
+D2.txt D3.txt 2-grams based on words: 0.1737
+
+
+
+===============================================
+
+D2.txt D4.txt 2-grams based on characters: 0.6413
+
+D2.txt D4.txt 3-grams based on characters: 0.3054
+
+D2.txt D4.txt 2-grams based on words: 0.0303
+
+
+
+===============================================
+
+D3.txt D4.txt 2-grams based on characters: 0.6530
+
+D3.txt D4.txt 3-grams based on characters: 0.3116
+
+D3.txt D4.txt 2-grams based on words: 0.0161
+
+
+
+===============================================
+
+Problem 2. Min Hashing
+
+2A. Min Hashing using grams G2 for D1 and D2: 
+
+t = 20: 1.00
+t = 60: 1.00
+t = 150: 1.00
+t = 300: 1.00
+t = 600: 0.99
+t = 750: 0.99
+t = 900: 0.99
+t = 1050: 0.98
+t = 1200: 0.98
+t = 1350: 0.98
+===============================================
+
+Problem 3. LSH
+
+3A. Find b and r for f(s) with t=160: 
+
+b = 14.2291
+
+r = 159.9983
+
+3B. Probability of each G2 pair for being estimated to having similarity grate than tao=.7: 
+
+pr[D1.txt D2.txt] = 1.000000000000
+
+pr[D1.txt D3.txt] = 0.065308847153
+
+pr[D1.txt D4.txt] = 0.000007192274
+
+pr[D2.txt D3.txt] = 0.048568311471
+
+pr[D2.txt D4.txt] = 0.000007471307
+
+pr[D3.txt D4.txt] = 0.000009959154
+
