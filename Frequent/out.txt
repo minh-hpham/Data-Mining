@@ -1,0 +1,24 @@
+In S1.txt
+['j', 'c', 'a', 'o', 'b', 'v', 'e', 'z', 'n']
+[1, 104715, 194715, 1, 147715, 1, 1, 0, 1]
+3 objects might occur more than 20% of the time
+[] must occur more than 20% of the time
+
+
+In S1.txt
+f^a 266737 might occur more than 20% of the time: True
+f^b 203000 might occur more than 20% of the time: True
+f^c 160000 might occur more than 20% of the time: False
+
+
+In S2.txt
+['e', 'b', 'g', 'c', 'a', 'm', 'w', 't', 'k']
+[1, 121429, 1, 161430, 231429, 0, 0, 0, 0]
+3 objects might occur more than 20% of the time
+['a'] must occur more than 20% of the time
+
+
+In S2.txt
+f^a 309544 might occur more than 20% of the time: True
+f^b 184971 might occur more than 20% of the time: False
+f^c 210000 might occur more than 20% of the time: True
